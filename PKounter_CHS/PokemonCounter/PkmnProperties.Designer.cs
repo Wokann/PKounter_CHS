@@ -488,7 +488,10 @@
             this.PBX_PREVIEW.MaximumSize = new System.Drawing.Size(150, 139);
             this.PBX_PREVIEW.Name = "PBX_PREVIEW";
             this.PBX_PREVIEW.Size = new System.Drawing.Size(150, 139);
+            
             this.PBX_PREVIEW.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            //this.PBX_PREVIEW.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;//预览图象按原尺寸显示请用该项，并注释掉上一行zoom
+            
             this.PBX_PREVIEW.TabIndex = 22;
             this.PBX_PREVIEW.TabStop = false;
             // 
