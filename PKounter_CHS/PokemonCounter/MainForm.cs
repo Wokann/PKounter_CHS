@@ -128,7 +128,11 @@ namespace PokemonCounter
                 pkmnpic.BorderStyle = BorderStyle.FixedSingle;
                 pkmnpic.Left = Convert.ToInt32(Convert.ToDouble(subpanelpokemon.Width) / 2 - Convert.ToDouble(pkmnpic.Width) / 2);
                 pkmnpic.Top = Convert.ToInt32(Convert.ToDouble(subpanelpokemon.Height) / 2 - Convert.ToDouble(pkmnpic.Height) / 2);
+                
+                
                 pkmnpic.SizeMode = PictureBoxSizeMode.Zoom;
+                //pkmnpic.SizeMode = PictureBoxSizeMode.CenterImage;//图象按原尺寸显示请用该项，并注释掉上一行zoom
+                
                 newHunt.pic = pkmnpic;
                 subpanelpokemon.Controls.Add(pkmnpic);
                 
