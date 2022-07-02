@@ -3,6 +3,13 @@ PKcounter_CHS
 Cerdit:
 
 
+github:
+
+	https://github.com/danigarpal97/PKounter
+	
+	(汉化)https://github.com/Wokann/PKounter_CHS
+
+
 Sprites:
 
 	https://www.serebii.net/
@@ -30,9 +37,3 @@ Icons:
 
 	https://github.com/msikma/pokesprite
 
-
-github:
-
-	https://github.com/danigarpal97/PKounter
-	
-	(汉化)https://github.com/Wokann/PKounter_CHS
